@@ -3,7 +3,7 @@
 import sys
 from sys import argv
 
-if len(argv) != 4: 
+if len(argv) != 4:
     sys.exit("Número de argumentos inválido.")
 
 operacion = argv[1]
@@ -13,11 +13,10 @@ try:
     op2 = float(argv[3])
 except ValueError:
     sys.exit("Tipo de operando inválido, solo es posible int o float.")
-
-    
-if operacion == "sumar": 
+  
+if operacion == "sumar":
     print(op1, "+", op2, "=", op1+op2)
-elif operacion == "restar": 
+elif operacion == "restar":
     print(op1, "-", op2, "=", op1-op2)
 elif operacion == "multiplicar": 
     print(op1, "*", op2, "=", op1*op2)
