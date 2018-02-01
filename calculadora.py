@@ -26,4 +26,4 @@ elif operacion == "dividir":
     else:
         print(op1, "/", op2, "=", op1/op2)
 else:
-    sys.exit('Esta operación no está contemplada.')  
+    sys.exit('Esta operación no está contemplada.')
